@@ -2,10 +2,11 @@
   "name": "whatstrackernodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "myfirst.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "index": "npx ts-node index.ts"
+    "index": "npx ts-node index.ts",
+    "start" :"node myfirst.js"
   },
   "author": "suresh patel",
   "license": "ISC",
