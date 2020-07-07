@@ -8,7 +8,7 @@ http.createServer(function (req, res) {
   res.writeHead(200, { 'Content-Type': 'text/html' });
   testapp().catch((err) => console.log(`encountered error: ${err}`));
   res.end('Hello World11111!');
-}).listen(8081);
+}).listen(process.env.PORT);
 
 const testapp= async function test() {
   //MyFireBase.GetName();
