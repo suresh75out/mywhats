@@ -1,0 +1,16 @@
+{
+  "name": "whatstrackernodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "npx ts-node index.ts"
+  },
+  "author": "suresh patel",
+  "license": "ISC",
+  "dependencies": {
+    "myfirebaseapp": "^1.0.0",
+    "whatstrackerapp": "^2.0.0"
+  }
+}
